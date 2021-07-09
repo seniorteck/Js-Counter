@@ -9,6 +9,7 @@ body{
     background: url(../images/background.jpeg);
     background-repeat: no-repeat;
     background-size: 2000px;
+    
 
 
     .container{
@@ -19,6 +20,8 @@ body{
         height: 80%;
         padding: 40px;
         text-align: center;
+        max-width: 300px;
+        box-shadow: 2px 2px 4px 2px rgba($color: #000000, $alpha: .4);
     }
 
     h1{
