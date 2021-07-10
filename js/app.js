@@ -18,7 +18,7 @@ increment.addEventListener('click', ()=>{
     if (result >= 50){
         result=output.textContent = "Max reach";
 
-        result.style.fontSize = "12px";
+        output.style.fontSize = "2rem"
     }
     
 });
@@ -29,7 +29,7 @@ decrement.addEventListener('click', ()=>{
     if (result <= 0){
         result=output.textContent = "Min reach";
         
-        result.style.fontSize = "12px";
+        output.style.fontSize = "2rem"
     }
 })
 
