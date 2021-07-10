@@ -11,17 +11,16 @@ body{
     background-size: 2000px;
     
 
-
     .container{
         background: transparent;
         border: 2px solid white;
         margin: 20% auto;
         width: 80%;
-        height: 80%;
+        height: auto;
         padding: 40px;
         text-align: center;
         max-width: 300px;
-        box-shadow: 2px 2px 4px 2px rgba($color: #000000, $alpha: .4);
+        boxw-shadow: 2px 2px 4px 2px rgba($color: #000000, $alpha: .4);
     }
 
     h1{
