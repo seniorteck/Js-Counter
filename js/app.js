@@ -13,23 +13,11 @@ let output = document.querySelector("#output")
 
 
 increment.addEventListener('click', ()=>{
-
-    // let i = 0
-    // while(i<=50){
-    //     console.log(i);
-    //     i++
-
-        
-    // }
-
     let result = output.textContent++;
-
-    // console.log(result)
     
 });
 
 decrement.addEventListener('click', ()=>{
-    // console.log("you clicked me to decrement");
     let result = output.textContent--;
 })
 
