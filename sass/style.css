@@ -61,6 +61,7 @@ body .btn-click button {
   text-transform: uppercase;
   background-color: #17009b;
   color: #fff;
+  cursor: pointer;
 }
 
 body .btn-click button:hover {
