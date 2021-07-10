@@ -14,6 +14,12 @@ let output = document.querySelector("#output")
 
 increment.addEventListener('click', ()=>{
     let result = output.textContent++;
+
+    if (result===50){
+        result.reset()
+    }else{
+        
+    }
     
 });
 

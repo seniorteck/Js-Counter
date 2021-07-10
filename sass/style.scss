@@ -41,18 +41,20 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
 
         button{
-            display: block;
-            padding: 10px;
-            margin: 10px 0;
             border: 0px;
-            outline: none;
-            text-transform: uppercase;
             background-color: rgb(23, 0, 155);
             color: #fff;
             cursor: pointer;
+            // display: inline-block;
+            padding: 10px 0;
+            margin: 10px 0;
+            outline: none;
+            text-transform: uppercase;
             transition: background-color 200ms ease-in;
+            width: 120px;
         }
 
         button:hover{

@@ -50,20 +50,23 @@ body .btn-click {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .btn-click button {
-  display: block;
-  padding: 10px;
-  margin: 10px 0;
   border: 0px;
-  outline: none;
-  text-transform: uppercase;
   background-color: #17009b;
   color: #fff;
   cursor: pointer;
+  padding: 10px 0;
+  margin: 10px 0;
+  outline: none;
+  text-transform: uppercase;
   -webkit-transition: background-color 200ms ease-in;
   transition: background-color 200ms ease-in;
+  width: 120px;
 }
 
 body .btn-click button:hover {
