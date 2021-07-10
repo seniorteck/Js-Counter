@@ -24,12 +24,13 @@ increment.addEventListener('click', ()=>{
 
     let result = output.textContent++;
 
-    console.log(result)
+    // console.log(result)
     
 });
 
 decrement.addEventListener('click', ()=>{
-    console.log("you clicked me to decrement");
+    // console.log("you clicked me to decrement");
+    let result = output.textContent--;
 })
 
 
