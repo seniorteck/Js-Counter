@@ -3,8 +3,6 @@
 @import 'reset';
 
 
-
-
 body{
     background: url(../images/background.jpeg);
     background-repeat: no-repeat;
@@ -20,7 +18,7 @@ body{
         padding: 40px;
         text-align: center;
         max-width: 300px;
-        boxw-shadow: 2px 2px 4px 2px rgba($color: #000000, $alpha: .4);
+        box-shadow: 2px 2px 4px 2px rgba($color: #000000, $alpha: .4);
     }
 
     h1{
