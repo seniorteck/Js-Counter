@@ -62,6 +62,8 @@ body .btn-click button {
   background-color: #17009b;
   color: #fff;
   cursor: pointer;
+  -webkit-transition: background-color 200ms ease-in;
+  transition: background-color 200ms ease-in;
 }
 
 body .btn-click button:hover {
